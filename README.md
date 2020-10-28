@@ -87,3 +87,4 @@ Run Commands:
 - rails db:migrate
 - rails g scaffold_controller Customer
 
+Github Link: https://github.com/arthurnls/Challenge6
