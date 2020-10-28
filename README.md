@@ -85,3 +85,5 @@
 Run Commands:
 - rails g model Customer name:string phone:string email:string image:string notes:text
 - rails db:migrate
+- rails g scaffold_controller Customer
+
