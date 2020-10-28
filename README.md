@@ -88,3 +88,5 @@ Run Commands:
 - rails g scaffold_controller Customer
 
 Github Link: https://github.com/arthurnls/Challenge6
+
+stopped at 11:21

@@ -1,0 +1,13 @@
+<div class="col-md-6 col-lg-4 col-xl-3 py-2">
+    <div class="card h-100">
+        <h5 class="card-title m-2 text-center"><%= link_to customer.name, customer %></h5>
+        <%= image_tag customer.image, class: "card-img-top img-fluid"  %>
+        <div class="card-body">
+            <p class="card-text bold"><strong>Phone Number:</strong> <%= customer.phone %></p>
+            <p class="card-text"><strong>Email Address:</strong> <%= customer.email %></p>
+            <small class="card-text"><strong>Notes:</strong> <%= customer.notes %></small>
+        </div>
+    </div>
+</div>
+
+
