@@ -12,7 +12,9 @@
   <body>
     <div class="container">
     <header class="mt-3">
-    <%= link_to "Home", customers_path %>
+    <%= link_to "Home", root_path %> | 
+    <%= link_to "Sorted", customers_sorted_path %> | 
+    <%= link_to "No Email", customers_missing_email_path %> | 
     <%= link_to "Admin", admin_root_path %>
     </header>
       <%= yield %>
